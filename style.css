@@ -14,12 +14,17 @@
     --color-5: #FFFFFF;
     --color-6: #20293A;
     --color-7: #6C727F;
+
+    --font-title: 1.125rem;
+    --font-body: 0.875rem;
+    --font-small-text: 0.75rem;
+    --font-tag: 0.65rem;
 }
 
 body{
     background-color: var(--color-4);
     font-family: "Sora", sans-serif;
-    font-size: 0.875rem;
+    font-size: var(--font-body);
 }
 
 main {
@@ -50,12 +55,12 @@ img{
     margin: 0 16px;
     border-radius: 16px;
     padding: 6px 16px;
-    font-size: 0.625rem;
+    font-size: var(--font-tag);
     font-weight: 700;
 }
 
 .title{
-    font-size: 1.125rem;
+    font-size: var(--font-title);
     font-weight: 600;
     margin: 16px 16px 6px;
     color: var(--color-6);
